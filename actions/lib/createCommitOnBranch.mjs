@@ -3,10 +3,10 @@ const [,,
   repo,
   branch,
   parentCommitSha,
-  commit_title,
-  commit_body,
   modifiedOrAddedFiles,
   deletedFiles,
+  commit_title,
+  commit_body,
 ] = process.argv;
 
 console.log({
@@ -58,7 +58,7 @@ const response = await fetch(process.env.GITHUB_GRAPHQL_URL, {
       changes: {
         additions: modifiedOrAddedFiles.split('\n').filter(Boolean)
           .map(path => ({ path, contents: readFileSync(path).toString('base64') })),
-        deletions: deletedFiles.split('\n').filter(Boolean),
+        deletions: deletedFiles.split('\n').filter(Boolean).map(path => ({ path })),
       }
     },
   })
