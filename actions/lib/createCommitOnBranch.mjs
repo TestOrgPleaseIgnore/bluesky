@@ -9,6 +9,16 @@ const [,,
   deletedFiles,
 ] = process.argv;
 
+console.log({
+  repo,
+  branch,
+  parentCommitSha,
+  commit_title,
+  commit_body,
+  modifiedOrAddedFiles,
+  deletedFiles,
+});
+
 import { readFileSync } from 'node:fs';
 import util from 'node:util';
 

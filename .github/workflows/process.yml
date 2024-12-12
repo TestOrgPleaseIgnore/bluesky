@@ -71,3 +71,5 @@ jobs:
             "Process new JSON files from #${{ github.event.pull_request.number }}" \
             "$(git diff --diff-filter=d --name-only --format=)" \
             "$(git diff --diff-filter=D --name-only --format=)"
+        env:
+          GH_TOKEN: ${{ github.token }}
