@@ -1,0 +1,55 @@
+[
+  {
+    "action": "post",
+    "account": "PIXEL",
+    "richTextFile": "./rich.txt",
+    "richText": "Here is the first tweet.",
+    "result": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwkvid5pi2a",
+      "cid": "bafyreigklnt4uhrbqkl36ruhmp64uqhus75z6v5wloe73k2mcxrtqzhcxa",
+      "commit": {
+        "cid": "bafyreidqwy5iisk2oqfplintopopibnekyohnrjhh23ht5ktsn5demeenq",
+        "rev": "3ldwkvidfji2a"
+      },
+      "validationStatus": "valid"
+    }
+  },
+  {
+    "action": "reply",
+    "account": "PIXEL",
+    "richTextFile": "./rich.txt",
+    "richText": "Here is the second tweet.",
+    "replyInfo": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwkvid5pi2a",
+      "cid": "bafyreigklnt4uhrbqkl36ruhmp64uqhus75z6v5wloe73k2mcxrtqzhcxa"
+    },
+    "result": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwkvifbe42k",
+      "cid": "bafyreib75qkcv5yn2iukbweun3hl7zevqqfllvxghvwgttzh2572vplj4q",
+      "commit": {
+        "cid": "bafyreibpfar256exiadmn4f57jomnwo6ju574bke7kuq3p3h76bfdmb4ie",
+        "rev": "3ldwkvifj642k"
+      },
+      "validationStatus": "valid"
+    }
+  },
+  {
+    "action": "reply",
+    "account": "PIXEL",
+    "richTextFile": "./rich.txt",
+    "richText": "Here is the third tweet.\n",
+    "replyInfo": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwkvifbe42k",
+      "cid": "bafyreib75qkcv5yn2iukbweun3hl7zevqqfllvxghvwgttzh2572vplj4q"
+    },
+    "result": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwkvig2hw2u",
+      "cid": "bafyreifkhexkyokxi3satzukus7xqatl2aayzdtu4ahotxt4z4qhjx34le",
+      "commit": {
+        "cid": "bafyreieb4id6fghqqjm4o3lsaw6olbw5yarbjzrl3dvja24vgm4gdzaucy",
+        "rev": "3ldwkvigeag2u"
+      },
+      "validationStatus": "valid"
+    }
+  }
+]
