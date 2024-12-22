@@ -1,0 +1,63 @@
+[
+  {
+    "action": "post",
+    "account": "PIXEL",
+    "richTextFile": "./rich.txt",
+    "richText": "Here is the first tweet.",
+    "result": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwm5sf2cm2a",
+      "cid": "bafyreibfrsc7ugpuswtufsly35rc74utrioulbtyx5e4usifxsnyyk6e5q",
+      "commit": {
+        "cid": "bafyreigcx6wcxbzqcf36dmzz5fkty46qu5hbcyfk4nmc22i2l3morjjyuy",
+        "rev": "3ldwm5sfd3u2a"
+      },
+      "validationStatus": "valid"
+    }
+  },
+  {
+    "action": "reply",
+    "account": "PIXEL",
+    "richTextFile": "./rich.txt",
+    "richText": "Here is the second tweet.",
+    "replyInfo": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwm5sf2cm2a",
+      "cid": "bafyreibfrsc7ugpuswtufsly35rc74utrioulbtyx5e4usifxsnyyk6e5q"
+    },
+    "rootInfo": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwm5sf2cm2a",
+      "cid": "bafyreibfrsc7ugpuswtufsly35rc74utrioulbtyx5e4usifxsnyyk6e5q"
+    },
+    "result": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwm5sia2v25",
+      "cid": "bafyreicwlr7cmcoqgdlfp6pdxaclfeu2o3vzxz65ammxdcezs3xzcdxkme",
+      "commit": {
+        "cid": "bafyreiggr6o66ejg4fg2vd77b7qsj7s5rx2xgsdcqmjxvalrhhgnx4rmty",
+        "rev": "3ldwm5sidxv25"
+      },
+      "validationStatus": "valid"
+    }
+  },
+  {
+    "action": "reply",
+    "account": "PIXEL",
+    "richTextFile": "./rich.txt",
+    "richText": "Here is the third tweet.\n",
+    "replyInfo": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwm5sia2v25",
+      "cid": "bafyreicwlr7cmcoqgdlfp6pdxaclfeu2o3vzxz65ammxdcezs3xzcdxkme"
+    },
+    "rootInfo": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwm5sf2cm2a",
+      "cid": "bafyreibfrsc7ugpuswtufsly35rc74utrioulbtyx5e4usifxsnyyk6e5q"
+    },
+    "result": {
+      "uri": "at://did:plc:tw2ov5bciclbz7b45sh4xlua/app.bsky.feed.post/3ldwm5sjevs2u",
+      "cid": "bafyreiglqesw3nalyi3g6nfmn2hzkhcgxjgw2o4wspnockonjqti637ene",
+      "commit": {
+        "cid": "bafyreids5ur2qnho6l4tc2x3l4xjqdzr6iohxld63si6zrj47ufzs5be4m",
+        "rev": "3ldwm5sjmps2u"
+      },
+      "validationStatus": "valid"
+    }
+  }
+]
